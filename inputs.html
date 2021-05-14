@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Input Types</title>
+</head>
+
+<body>
+  <h3>Input Types</h3>
+
+  <form class="" action="index.html" method="post">
+
+    <label>Your Name</label>
+    <input type="text" name="" value="">
+    <input type="button" name="submit">
+    <br>
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+    <datalist id="ice-cream-flavors">
+      <option value="Chocolate">
+      <option value="Coconut">
+      <option value="Mint">
+      <option value="Strawberry">
+      <option value="Vanilla">
+      <option value="Jack Fruit">
+      <option value="Mint Lemon">
+    </datalist>
+    <br>
+    <form>
+      <fieldset>
+        <legend>Choose your favorite monster</legend>
+
+        <input type="radio" id="kraken" name="monster">
+        <label for="kraken">Kraken</label><br />
+
+        <input type="radio" id="sasquatch" name="monster">
+        <label for="sasquatch">Sasquatch</label><br />
+
+        <input type="radio" id="mothman" name="monster">
+        <label for="mothman">Mothman</label><br>
+
+        <input type="radio" id="Jayesh" name="monster">
+        <label for="Jayesh">Jayesh</label>
+      </fieldset>
+    </form>
+
+    <form action="" method="get" class="form-example">
+      <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="form-example">
+        <input type="submit" value="Subscribe!">
+      </div>
+    </form>
+
+    <label for="avatar">Choose a profile picture:</label>
+
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+    <label for="start">Start Date:</label>
+    <input type="date" id="start" name="trip-start" value="01-01-2017" min="01-01-2017" max="31-12-2035">
+
+    <label for="start">Stop Date:</label>
+    <input type="date" id="Stop" name="trip-Stop" value="01-01-2017" min="01-01-2017" max="31-12-2035">
+
+  <p>Audio settings:</p>
+
+    <div>
+      <input type="range" id="volume" name="volume"
+             min="0" max="11">
+      <label for="volume">Volume</label>
+    </div>
+
+    <div>
+      <input type="range" id="cowbell" name="cowbell"
+             min="0" max="100" value="90" step="10">
+      <label for="cowbell">Cowbell</label>
+
+      <input type="range" list="Tickmark"
+      <datalist id="Tickmark">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+    </div>
+
+
+
+
+  </form>
+
+</body>
+
+</html>
